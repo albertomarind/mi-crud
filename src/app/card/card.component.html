@@ -1,0 +1,15 @@
+<div class="card">
+    <div class="card-header">
+        <!-- Property Binding -->
+        <img [src]="image" > 
+        <span (click)="onClick()" class="card-fav">{{id}}</span>
+    </div>
+    <div class="card-body">
+        <!-- Interpolation String -->
+        <p>{{description}}</p> 
+    </div>
+    <div class="card-footer">
+        <button>Guardar</button>
+        <button>Eliminar</button>
+    </div>
+</div>

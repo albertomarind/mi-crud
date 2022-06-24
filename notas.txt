@@ -1,0 +1,13 @@
+RootModule
+RootComponent
+
+@NgModule
+@Component
+
+@Input
+@Output
+
+Directivas
+- Componentes
+- Atributo
+- Estructurales ngIf ngFor ngSwitch
